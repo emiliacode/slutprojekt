@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+margin: 0;
+padding: 0;
+width: 200px;
+background-color: pink;
+}
+
+li a {
+display: block;
+color: purple;
+padding: 8px 16px;
+text-decoration: none;
+}
+
+/* Ändra färg när någon håller över (hover) länken */
+li a:hover {
+    background-color: purple;
+    color: honeydew;
+}
+
+ul {
+    border: 1px solid purple;
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid purple;
+}
+
+li:last-child {
+    border-bottom: none;
+}
